@@ -32,3 +32,13 @@ Use following cURL commands.
 curl http://localhost:8080/stockquote/IBM
 
 ```
+
+How to build the docker immge from the sample
+------------------------------------------
+From this directory, run
+
+```
+mvn clean package docker:build
+```
+
+
